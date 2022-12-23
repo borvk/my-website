@@ -1,11 +1,15 @@
 <template>
-  <div class="h-screen bg-[#F5F5DC]">
-    <div class="md:flex justify-center flex-wrap">
-      <div class="text-5xl py-5"> <span class="text-warm-gray-700">
-        Borak isn't here... OR IS HE?
-      </span> </div>
-      <div class="text-center animate-spin-slow text-5xl py-5">🤔</div>
+  <div class="bg-stone-200 min-h-screen min-w-screen">
+    <div class="grid h-screen place-items-center">
+      <div class="p-10 flex-col">
+        <span class="text-xl">  Hi, as you can see... this need some work. </span>
+        <div class="text-lg hover:animate-pulse p-3">
+        – Borak 👨‍🦲
+        </div>
+      </div>
+
     </div>
+ 
   </div>
 </template>
 

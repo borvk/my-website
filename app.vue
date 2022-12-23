@@ -10,6 +10,9 @@
 
 <script setup lang="ts">
   useHead({
-    title: 'Borvk ⁠– flip the (v) upside down!'
+    title: 'Borvk ⁠– flip the (v) upside down!',
+    link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+ ]
   })
 </script>

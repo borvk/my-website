@@ -1,7 +1,10 @@
 <template>
-  <div class="flex justify-center">
-    <div class="text-5xl"> Borak isn't here... OR IS HEEEEE? </div>
-    <div class="text-5xl animate-spin-slow" >🤔</div>
+  <div class="container-auto">
+    <div class="md:flex justify-center flex-wrap">
+      <div class="text-5xl py-5"> Borak isn't here... OR IS HE? </div>
+      <div class="text-center animate-spin-slow text-5xl py-5">🤔</div>
+    </div>
+
   </div>
 </template>
 

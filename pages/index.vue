@@ -1,13 +1,15 @@
 <template>
   <div class="bg-stone-200 min-h-screen min-w-screen">
     <div class="grid h-screen place-items-center">
-      <div class="p-10 flex-col">
-        <span class="text-xl">  Hi, as you can see... this need some work. </span>
-        <div class="text-lg hover:animate-pulse p-3">
+      <div class="p-10 flex-col select-none">
+        <span class="text-xl">  Hi, as you can see... this ain't it. </span>
+        <div class="text-lg p-3">
         – Borak 👨‍🦲
         </div>
+        <div class="flex justify-center animate-pulse italic text-lg">
+          Work in progress...
+        </div>
       </div>
-
     </div>
  
   </div>
@@ -16,8 +18,5 @@
 <script setup lang="ts">
   useHead({
     title: 'Borak*',
-    link: [
-    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
- ]
   })
 </script>

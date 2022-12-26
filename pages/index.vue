@@ -1,22 +1,39 @@
 <template>
-  <div class="bg-stone-200 min-h-screen min-w-screen">
-    <div class="grid h-screen place-items-center">
-      <div class="p-10 flex-col select-none font-chivo">
-        <span class="text-lg font-bold">  Hi, as you can see... this ain't it. </span>
-        <div class="text-lg p-3">
-        – Borak 👨‍🦲
-        </div>
-        <div class="flex justify-center animate-pulse italic text-lg">
-          Work in progress...
-        </div>
+  <section class="md:container md:mx-auto" role="main">
+    <Navbar />
+    <div class="relative px-6 font-chivo py-20 md:py-48">
+      <div class="py-10">
+        Hey Borak here, thank you for visiting my website.
+      </div>
+      <div class="text-center">
+        I am currently working as a Web Engineer <a href="https://kh.linkedin.com/company/mangobyte"><span class="text-orange-500 font-semibold">@MangoByte</span></a>. I work with backend and frontend development for web app.
+      </div>
+      <div class="py-10">
+       I would love explore mobile development someday, maybe later...
+      </div>
+      <div class="py-10">
+       Anyway, cheers and happy coding! 👩‍💻
+      </div>
+      <section class="flex justify-center font-semibold">
+        <label for="title" class=" text-2xl">Quote of the day</label>
+      </section>
+      <div class="text-center py-5">
+       <span class="italic">
+        &ldquo;{{ quote.content }}&rdquo;
+       </span> &ndash; {{ quote.author}}
       </div>
     </div>
- 
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">
+
   useHead({
     title: 'Borak*',
   })
+ const { data } = await useAsyncData('random', () => $fetch('https://api.quotable.io/random?tags=technology,famous-quotes')
+)
+
+const quote = ref<any>(data)
+
 </script>

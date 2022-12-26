@@ -3,7 +3,7 @@
     <Navbar />
     <div class="relative px-6 font-chivo py-20 md:py-48">
       <div class="py-10">
-        Hey Borak here, thank you for visiting my website.
+        Hey there, thank you for visiting my website.
       </div>
       <div class="text-center">
         I am currently working as a Web Engineer <a href="https://kh.linkedin.com/company/mangobyte"><span class="text-orange-500 font-semibold">@MangoByte</span></a>. I work with backend and frontend development for web app.
@@ -12,7 +12,7 @@
        I would love explore mobile development someday, maybe later...
       </div>
       <div class="py-10">
-       Anyway, cheers and happy coding! 👨‍💻
+       Anyway, cheers and happy coding! &ndash; Borak 👨‍💻  
       </div>
       <section class="flex justify-center font-semibold">
         <label for="title" class=" text-2xl">Quote of the day</label>

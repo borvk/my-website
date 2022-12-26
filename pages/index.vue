@@ -12,7 +12,7 @@
        I would love explore mobile development someday, maybe later...
       </div>
       <div class="py-10">
-       Anyway, cheers and happy coding! 👩‍💻
+       Anyway, cheers and happy coding! 👨‍💻
       </div>
       <section class="flex justify-center font-semibold">
         <label for="title" class=" text-2xl">Quote of the day</label>

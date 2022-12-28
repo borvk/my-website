@@ -1,5 +1,5 @@
 <template>
-  <section class="md:container md:mx-auto" role="main">
+  <section class="md:container md:mx-auto md:px-46" role="main">
     <Navbar />
     <div class="relative px-6 font-chivo py-20 md:py-48">
       <div class="py-10">
